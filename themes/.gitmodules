@@ -1,0 +1,3 @@
+[submodule "papermod"]
+	path = papermod
+	url = git@github.com:adityatelange/hugo-PaperMod.git
