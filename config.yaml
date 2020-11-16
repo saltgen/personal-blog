@@ -1,0 +1,74 @@
+
+baseURL: "https://saltgen.dev"
+title: saltgen's blog
+paginate: 5
+theme: papermod
+enableEmoji: true
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: Coding Journal
+    description: "My adventures as a software engineer"
+    author: Me
+
+    images: "<link or path of image for opengraph, twitter-cards>"
+
+    ShowReadingTime: true
+    ShowShareButtons: true
+    comments: false
+    defaultTheme: auto
+    disableThemeToggle: false
+    disableSpecial1stPost: false
+    ShowToc: false
+
+    assets:
+        favicon: "<link / abs url>"
+        favicon16x16: "<link / abs url>"
+        favicon32x32: "<link / abs url>"
+        apple_touch_icon: "<link / abs url>"
+        safari_pinned_tab: "<link / abs url>"
+
+    label:
+        text: "saltgen's blog"
+        # icon: ''
+        iconHeight: 75
+
+    # profile-mode
+    profileMode:
+        enabled: false # needs to be explicitly set
+        title: saltgen's blog
+        # imageUrl: '<img location>'
+        # imageTitle: my image
+        buttons:
+            - name: Posts
+              url: posts
+            - name: Tags
+              url: tags
+
+    # home-info mode
+    homeInfoParams:
+        Title: "Hi there! \U0001F44B"
+        Content: Welcome to my blog
+
+    socialIcons:
+        - name: twitter
+          url: "https://twitter.com/saltgen"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/sagnikdutta"
+        - name: github
+          url: "https://github.com/saltgen"
+
+    analytics:
+        google:
+            SiteVerificationTag: "XYZabc"
